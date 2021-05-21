@@ -44,4 +44,6 @@ int main()
 	printf("Frequency is : %d\n",iRet);
 
 	free(arr);
+	
+	return 0;
 }
