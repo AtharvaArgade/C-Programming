@@ -1,4 +1,4 @@
-// Accept N numbers from user and display that number.
+// Accept N numbers from user and display that numbers.
 
 #include<stdio.h>
 # include<stdlib.h>
@@ -15,7 +15,7 @@ void Display(int Arr[], int iSize)
 
 int main()
 {
-	int *arr=NULL;    // Step1
+	int *arr=NULL;    
 	int iLength=0, i=0;
 
 	printf("Enter the number of elements\n");    
