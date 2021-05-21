@@ -50,5 +50,5 @@ int main()
 	{
 		printf("%d is not prime number\n",iValue);
 	}
-
+	return 0;
 }
