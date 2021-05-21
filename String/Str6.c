@@ -1,4 +1,4 @@
-// Accept string from user and return frequency of 'a' in that string 
+// Accept string from user and return frequency of 'A/a' in that string 
 
 
 #include<stdio.h>
