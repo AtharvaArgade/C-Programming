@@ -5,17 +5,6 @@
 // Input : 6
 // Output : True   (6)   1+2+3
 
-/*
-	iNo=6   iSum=0   
-	
-	if(6%1)==0       0+1=1
-	if(6%2)==0		 1+2=3                            Number of iterations 6 (iNo)
-	if(6%3)==0		 3+3=6							  Loop iterates iNo number of times
-
-	if(iNo==iSum)     True
-			 							  
-*/
-
 #include<stdio.h>
 #include<stdbool.h>
 
