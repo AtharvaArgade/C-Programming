@@ -28,4 +28,6 @@ int main()
 
 	struprX(Arr);
 	printf("Updated string is : %s\n",Arr);
+	
+	return 0;
 }
