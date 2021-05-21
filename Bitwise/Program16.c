@@ -3,14 +3,6 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-/*
-	1 0 1 0 0 1 0 1
-	0 0 0 0 0 0 0 1
-	0 0 0 0 0 0 1 0
-	0 0 0 0 0 1 0 0
-*/
-
-// Time complexity is O(N) where N is 32
 
 unsigned int CountBit(unsigned int iNo)
 {
