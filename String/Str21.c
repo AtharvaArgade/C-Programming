@@ -30,7 +30,7 @@ int main()
 	scanf("%[^'\n']s",arr);
 
 	printf("Enter second string\n");
-	scanf(" %[^'\n']s",brr);    // if compiler doesnot take second string then put space ' ' before %
+	scanf(" %[^'\n']s",brr);    
 
 	strcatX(arr, brr);
 	printf("After concat string is : %s\n",brr);
