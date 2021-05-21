@@ -19,7 +19,7 @@ int main()
 {
 	unsigned int iValue=0;
 	printf("Enter number\n");
-	scanf("%u",&iValue);            // unsigned int is %u
+	scanf("%u",&iValue);        
 	Pattern(iValue);
 	return 0;
 }
