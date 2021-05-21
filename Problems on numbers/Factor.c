@@ -1,20 +1,4 @@
 // Accept number from user and display factors of that number.
-// Input : 12
-// Output : 1 2 3 4 6
-
-// Input : 20
-// Output : 1 2 4 5 10
-
-/*
-	iNo=6      
-	
-	if(6%1)==0       1
-	if(6%2)==0		 2                            Number of iterations iNo times
-	if(6%3)==0		 3							  if(iNo%__)==0
-	if(6%4)==0		 -							  start : 1
-	if(6%5)==0		 -				 			  end   : iNo	  
-												  Displacement : 1
-*/
 
 #include<stdio.h>
 
