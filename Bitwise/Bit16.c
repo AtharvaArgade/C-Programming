@@ -1,4 +1,4 @@
-// Accept the number from user and count number of bits that are on without using '/' and '%' operator.
+// Accept the binary number from user and count number of bits that are on without using '/' and '%' operator.
 
 #include<stdio.h>
 #include<stdbool.h>
