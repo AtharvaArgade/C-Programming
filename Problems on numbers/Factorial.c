@@ -5,17 +5,7 @@
 // Input : 4 
 // Output : 4*3*2*1     (24)
 
-/*
-	iNo=5           iMult=1
-	1*2*3*4*5
-	
-	1*1		=1
-	1*2		=2                            Number of iterations 5 (iNo)
-	2*3		=6							  Loop iterates iNo number of times
-	6*4		=24
-	24*5	=120						 
-										  
-*/
+
 
 #include<stdio.h>
 
