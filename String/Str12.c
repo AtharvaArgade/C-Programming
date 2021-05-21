@@ -32,4 +32,6 @@ int main()
 
 	strtoggle(Arr);
 	printf("Updated string is : %s\n",Arr);
+	
+	return 0;
 }
