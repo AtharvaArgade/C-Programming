@@ -1,4 +1,4 @@
-// Accept N numbers from user and display addition of even numbers.
+// Accept N numbers from user and count even numbers.
  
 #include<stdio.h>
 #include<stdlib.h>
