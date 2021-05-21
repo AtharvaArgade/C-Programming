@@ -5,14 +5,7 @@
 // Input : 7
 // Output : Its odd
 
-///////////////////////////////////////////////
-// Function Name : CheckEven
-// Input : Integer
-// Output : Boolean(True/False)
-// Description : It is used to check whether number is even or odd
-// Date : 01/03/2021
-// Author : Atharva Argade
-//////////////////////////////////////////////
+
 
 #include<stdio.h>
 #include<stdbool.h>
