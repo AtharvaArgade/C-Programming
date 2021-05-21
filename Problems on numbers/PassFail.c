@@ -18,8 +18,6 @@ void CheckResult(int iMarks)
 		return;
 	}
 
-// if we use 'if' always instead of 'else if' then program will check condition always ie for all if 
-// condition but incase of 'else if' once the condition is correct it will not check other conditions.
 
 	if( (iMarks>=0) && (iMarks<35) )
 	{
