@@ -1,3 +1,5 @@
+// Accept number from user and return the smallest digit
+
 #include<stdio.h>
 
 typedef unsigned long int ULONG;
