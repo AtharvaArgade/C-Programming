@@ -13,8 +13,6 @@ void Display(unsigned int iNo)
 	}
 }
 
-// Time complexity is O(32)  it is 32 is the worst time complexity
-// best time complexity is O(1)
 
 int main()
 {
