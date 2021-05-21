@@ -8,7 +8,7 @@ int strlenX(char *str)
 	int iCnt=0;
 	while(*str != '\0')
 	{
-		printf("%d : %c : %d\n",iCnt,*str,*str); // (last *str is ACSII value)
+		printf("%d : %c : %d\n",iCnt,*str,*str); 
 		iCnt++;
 		str++;
 	}
@@ -21,9 +21,7 @@ int main()
 	int iRet=0;
 
 	printf("Enter string\n");
-	scanf("%[^'\n']s",Arr);
-	// fgets(Arr,10,stdin);    // fgets take 'enter' after typing string as one character so output 
-	 // increases by one so we should use scanf so we can get correct output. 
+	scanf("%[^'\n']s",Arr); 
 
 	iRet=strlenX(Arr);
 	printf("Length of string is %d\n",iRet);
