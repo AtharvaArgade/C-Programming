@@ -4,8 +4,6 @@
 			* 2 $ $ 
 			* * 3 $
 			* * * 4
-
-			In diagonal patterns rows and columns should be same (i.e pattern should be in square)
 */
 
 
@@ -27,7 +25,7 @@ void Pattern(unsigned int iRow, unsigned int iCol)
 		{
 			if(i==j)
 			{
-				printf("%d\t",i);      // we can display here i or j 
+				printf("%d\t",i);      
 			}
 			else if(i>j)
 			{
