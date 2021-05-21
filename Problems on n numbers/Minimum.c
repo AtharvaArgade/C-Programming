@@ -1,4 +1,4 @@
-// Accept N numbers from user and find maximum numbers from that number.
+// Accept N numbers from user and find minimum number from that numbers.
  
 #include<stdio.h>
 #include<stdlib.h>
