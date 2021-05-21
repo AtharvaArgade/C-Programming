@@ -22,12 +22,6 @@ int Reverse(int iNo)
 		iNo=iNo/10;
 	}
 	return iRev;
-	/*                       By using for loop	
-	for(;iNo>0;iNo=iNo/10)
-	{
-		iDigit=iNo%10;
-		iRev=(iRev*10)+iDigit;
-	} */
 }
 
 int main()
