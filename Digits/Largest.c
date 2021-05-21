@@ -23,7 +23,7 @@ int MaxDigit(int iNo)
 			iMax=iDigit;
 			if(iMax==9)
 			{
-				break;       // break statement is used to break the loop(ie while or for loop) 
+				break;       
 			}
 		}
 		iNo=iNo/10;
@@ -31,7 +31,7 @@ int MaxDigit(int iNo)
 	return iMax;
 }
 
-// Time Complexity is reduced than last program as if iMax=9 then use break. 
+
 
 int main()
 {
