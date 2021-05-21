@@ -19,16 +19,6 @@ void Pattern(unsigned int iNo)
 	printf("\n");
 }
 
-/*
-you can also write as
-	int iCnt=0;
-	char ch='\0';
-	for(iCnt=1,ch='A';iCnt<=iNo;iCnt++,ch++)
-	{
-		print("%c\t",ch);
-	}
-*/
-
 int main()
 {
 	unsigned int iValue=0;
