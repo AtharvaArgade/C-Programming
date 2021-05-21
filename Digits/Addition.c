@@ -4,7 +4,7 @@
 
 #include<stdio.h>
 
-// Here time complexity if the program is O(n)  where n is number of digits.
+// Here time complexity of the program is O(n)  where n is number of digits.
 
 int SumDigits(int iNo)
 {
@@ -21,16 +21,7 @@ int SumDigits(int iNo)
 	}
 	return iSum;
 }
-/*  we can also write like this by not taking iDigit variable
-int iSum=0;
-	
-	while(iNo>0)
-	{
-		iSum=iSum+iNo%10;
-		iNo=iNo/10;
-	}
-	return iSum;
-*/
+
 int main()
 {
 	int iValue=0;
