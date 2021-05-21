@@ -3,9 +3,7 @@
 #include<stdio.h>
 # include<stdlib.h>
 
-// void Display(int *Arr, int iSize)    we can also write *Arr instead of Arr[]
-
-void Display(int Arr[], int iSize)               // Step 6
+void Display(int Arr[], int iSize)              
 {
 	int i=0;
 	printf("Elements from the array are: \n");
@@ -14,26 +12,26 @@ void Display(int Arr[], int iSize)               // Step 6
 		printf("%d\n",Arr[i]);
 	}
 }
-//----------------------------------------------------------------------------------------------------
+
 int main()
 {
 	int *arr=NULL;    // Step1
 	int iLength=0, i=0;
 
-	printf("Enter the number of elements\n");     // Step 2
+	printf("Enter the number of elements\n");    
 	scanf("%d",&iLength);
 
-	arr=(int*)malloc(iLength*sizeof(int));       // Step 3
+	arr=(int*)malloc(iLength*sizeof(int));      
 
-	printf("Enter the elements\n");              // Step 4
+	printf("Enter the elements\n");              
 	for(i=0;i<iLength;i++)
 	{
 		scanf("%d",&arr[i]);
 	}
 
-	Display(arr,iLength);                   // Step 5
+	Display(arr,iLength);                 
 
-	free(arr);      // Step 7
+	free(arr);    
 
 	return 0;
 }
