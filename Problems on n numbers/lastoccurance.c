@@ -1,4 +1,4 @@
-// Accept N numbers and another number from user and find index of that number. 
+// Accept N numbers and another number from user and find index of last occurance of that number. 
  
 #include<stdio.h>
 #include<stdlib.h>
