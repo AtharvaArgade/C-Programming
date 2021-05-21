@@ -3,14 +3,6 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-/*
-   	iNo   0 1 0 1 0 1 1 0
-   iMask  0 1 0 1 0 1 0 0    &
-  -----------------------------
-  Result  0 1 0 1 0 1 0 0 
-
-*/
-
 bool CheckBit(unsigned int iNo)
 {
 	unsigned iMask=0x00000054;
