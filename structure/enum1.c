@@ -13,16 +13,3 @@ int main()
 
   return 0;
 }
-/*
-E:\Pre_Placement_activity\parallel\structure>gcc enum1.c -o enum
-
-E:\Pre_Placement_activity\parallel\structure>enum.exe
-3
-12
-1
-5
-6
-3
-
-E:\Pre_Placement_activity\parallel\structure>
-*/
