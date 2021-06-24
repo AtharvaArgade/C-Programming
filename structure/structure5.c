@@ -30,18 +30,3 @@ int main()
 
  return 0;
 }
-/*
-E:\Pre_Placement_activity\parallel\structure>gcc structure5.c -o structure
-
-E:\Pre_Placement_activity\parallel\structure>structure.exe
-Size of structure is 16
-Padding is of 2 bytes
-
-E:\Pre_Placement_activity\parallel\structure>gcc structure5.c -o structure
-
-E:\Pre_Placement_activity\parallel\structure>structure.exe
-Size of structure is 20
-Padding is of 6 bytes
-
-E:\Pre_Placement_activity\parallel\structure>
-*/
