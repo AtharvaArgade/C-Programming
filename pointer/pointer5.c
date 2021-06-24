@@ -23,21 +23,3 @@ int main()
 
   return 0;
 }
-
-/*
-E:\Pre_Placement_activity\parallel\pointer>gcc pointer5.c -o pointer -w
-
-E:\Pre_Placement_activity\parallel\pointer>pointer.exe
-6422276
-6422276
-6422276
-20
-6422280
-6422296
-6422284
-6422316
-6422280
-6422280
-
-E:\Pre_Placement_activity\parallel\pointer>
-*/
