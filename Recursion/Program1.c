@@ -2,27 +2,25 @@
 
 void Display()
 {
-	int i = 0;     // Local variable
-
-	//   1   2    3
+	int i = 0;     
+	
 	for(i=1;i<=4;i++)
 	{
-		printf("*\n");   // 4
+		printf("*\n");   
 	}
 }
 void DisplayR()
 {
-	int i = 1; // 1     Problem in the code   solution in next problem
-	if(i<=4)   // 2
+	int i = 1; 
+	if(i<=4)   
 	{
-		printf("*\n");   // 4
-		i++;  			  // 3
-		DisplayR();  		// Recursive call
+		printf("*\n");   
+		i++;  			
+		DisplayR();  	
 	}
 }
 int main()
 {
 	DisplayR();
-
 	return 0;
 }
