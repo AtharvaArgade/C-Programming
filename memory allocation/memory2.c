@@ -31,14 +31,3 @@ int main()
  
   return 0;
 }
-
-/*
-E:\Pre_Placement_activity\parallel\memory>gcc memory2.c -o memory
-
-E:\Pre_Placement_activity\parallel\memory>memory.exe
-Dynamic memory gets allocated in heap at the address 1322880
-Dynamic memory gets allocated in heap at the address 1321336
-Free the allocated memory
-
-E:\Pre_Placement_activity\parallel\memory>
-*/
