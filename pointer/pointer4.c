@@ -28,27 +28,9 @@ int main()
   p=&i;
   printf("%d\n",*(int *)p);
 
-  printf("%lu\n",p);             //   6422276
-  printf("%lu\n",p+1);           //   6422277
-  printf("%lu\n",(char*)p+1);    //   6422280 
+  printf("%lu\n",p);            
+  printf("%lu\n",p+1);           
+  printf("%lu\n",(char*)p+1);    
 
   return 0;
 }
-
-/*
-
-E:\Pre_Placement_activity\parallel\pointer>gcc pointer4.c -o pointer
-
-E:\Pre_Placement_activity\parallel\pointer>pointer.exe
-M
-11
-10.200000
-20.500000
-M
-11
-6422276
-6422277
-6422280
-
-E:\Pre_Placement_activity\parallel\pointer>
-*/
