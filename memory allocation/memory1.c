@@ -28,11 +28,11 @@ int main()
   }
   
   printf("Dynamic memory gets allocated in heap at the address %lu\n",ptr);
-/*
+
   ptr[0]=10;
   ptr[1]=20;
   ptr[2]=30;
-*/
+
   printf("Elements are %d %d %d\n",ptr[0],ptr[1],ptr[2]);
 
   printf("%d\n",sizeof(ptr));
@@ -48,31 +48,3 @@ int main()
  
   return 0;
 }
-
-/*
-E:\Pre_Placement_activity\parallel\memory>gcc memory1.c -o memory
-
-E:\Pre_Placement_activity\parallel\memory>memory.exe
-Enter number of elements that you want to allocate
-5
-Dynamic memory gets allocated in heap at the address 11217272
-Elements are 10 20 30
-4
-4
-Free the allocated memory
-Dynamic memory gets allocated in heap at the address 11217272
-
-E:\Pre_Placement_activity\parallel\memory>gcc memory1.c -o memory
-
-E:\Pre_Placement_activity\parallel\memory>memory.exe
-Enter number of elements that you want to allocate
-6
-Dynamic memory gets allocated in heap at the address 7678328
-Elements are 0 0 0
-4
-4
-Free the allocated memory
-Dynamic memory gets allocated in heap at the address 7678328
-
-E:\Pre_Placement_activity\parallel\memory>
-*/
