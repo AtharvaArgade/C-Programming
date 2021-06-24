@@ -35,4 +35,6 @@ int main()
 
 	iRet = SumDigitR(iValue);
 	printf("Addition of digit is %d\n",iRet);
+	
+	return 0;
 }
