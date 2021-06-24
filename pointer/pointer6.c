@@ -16,20 +16,3 @@ int main()
 
   return 0;
 }
-
-/*
-E:\Pre_Placement_activity\parallel\pointer>gcc pointer6.c -o pointer
-pointer6.c: In function 'main':
-pointer6.c:15:21: error: lvalue required as increment operand
-   15 |   printf("%lu\n",arr++);
-      |                     ^~
-
-E:\Pre_Placement_activity\parallel\pointer>gcc pointer6.c -o pointer
-
-E:\Pre_Placement_activity\parallel\pointer>pointer.exe
-6422284
-6422284
-6422284
-
-E:\Pre_Placement_activity\parallel\pointer>
-*/
