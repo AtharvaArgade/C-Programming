@@ -22,16 +22,3 @@ int main()
 
   return 0;
 }
-/*
-E:\Pre_Placement_activity\parallel\structure>gcc enum.c -o enum
-
-E:\Pre_Placement_activity\parallel\structure>enum.exe
-Mon :1
-Tue :2
-Sun :7
-Value :1
-Value :2
-Sizeof value :4
-
-E:\Pre_Placement_activity\parallel\structure>
-*/
