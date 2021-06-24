@@ -28,7 +28,5 @@ int main()
 	DisplayI(iValue);
 	DisplayR(iValue);
 
-	printf("End of main\n");
-
 	return 0;
 }
