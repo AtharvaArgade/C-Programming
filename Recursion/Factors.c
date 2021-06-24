@@ -38,4 +38,6 @@ int main()
 	DisplayFactorI(iValue);
 	printf("\n");
 	DisplayFactorR(iValue);
+	
+	return 0;
 }
