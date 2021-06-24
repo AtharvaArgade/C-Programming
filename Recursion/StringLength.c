@@ -37,5 +37,6 @@ int main()
 
 	iRet = StrlenR(arr);
 	printf("String length is : %d\n",iRet);
+	
 	return 0;
 }
