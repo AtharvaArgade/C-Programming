@@ -22,17 +22,3 @@ int main()
 
   return 0;
 }
-/*
-E:\Pre_Placement_activity\parallel\structure>gcc structure1.c -o structure
-
-E:\Pre_Placement_activity\parallel\structure>structure.exe
-Obj1.no is 11
-Obj1.f is 10.50
-Obj1.d is 20.500000
-Address of structure :6422288
-Address of no :6422288
-Address of f :6422292
-Address of d :6422296
-
-E:\Pre_Placement_activity\parallel\structure>
-*/
