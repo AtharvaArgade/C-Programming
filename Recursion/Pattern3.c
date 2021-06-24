@@ -1,13 +1,11 @@
 /*
-	iRow = 4, iCol = 4
+	iRow = 4, iCol = 3
 
 	***
 	***
 	***
 	***
 */
-
-// By using iteration
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -20,7 +18,7 @@ void Display(int iCol)   // Display / travel columns
 	{
 		printf("*\t");
 		j++;
-		Display(iCol);    // Recursive calls
+		Display(iCol);   
 	}
 	j = 1;
 }
@@ -30,10 +28,10 @@ void DisplayR(int iRow, int iCol)    // Display / travel rows
 	static int i = 1;
 	if(i<=iRow)
 	{
-		Display(iCol);   // Call to travel columns
+		Display(iCol);  
 		i++;
 		printf("\n");
-		DisplayR(iRow, iCol);    // Recursive call
+		DisplayR(iRow, iCol);   
 	}
 }
 
