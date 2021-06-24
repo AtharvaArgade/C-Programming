@@ -28,15 +28,3 @@ int main()
   
  return 0;
 }
-/*
-E:\Pre_Placement_activity\parallel\structure>gcc union.c -o union
-
-E:\Pre_Placement_activity\parallel\structure>union.exe
-Size of structre is 12
-Size of union is 4
-21
-0.000000
-21
-
-E:\Pre_Placement_activity\parallel\structure>
-*/
