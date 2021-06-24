@@ -28,26 +28,3 @@ int main()
  
   return 0;
 }
-
-/*
-
-E:\Pre_Placement_activity\parallel\pointer>gcc pointer.c -o pointer
-
-E:\Pre_Placement_activity\parallel\pointer>pointer.exe
-Value of i is : 11
-Address of no is : 6422300
-Value of ip : 6422300
-Address of ip :6422296
-Data pointed by the ip is : 11
-Size of the i is : 4
-Size of ip is 4
-Value of ch is : M
-Address of ch is : 6422295
-Value of cp : 6422295
-Address of cp :6422288
-Data pointed by the cp is : M
-Size of the ch is : 1
-Size of cp is 4
-
-E:\Pre_Placement_activity\parallel\pointer>
-*/
