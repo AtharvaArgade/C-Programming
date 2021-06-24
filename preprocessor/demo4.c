@@ -13,12 +13,3 @@ int main()
 
   return 0;
 }
-
-/*
-E:\Pre_Placement_activity\parallel\preprocessor>gcc demo4.c -o demo
-
-E:\Pre_Placement_activity\parallel\preprocessor>demo.exe
-Inside
-
-E:\Pre_Placement_activity\parallel\preprocessor>
-*/
