@@ -1,5 +1,5 @@
 /*
-	iRow = 4, iCol = 4
+	iRow = 4, iCol = 3
 
 	***
 	***
@@ -12,16 +12,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
-
-void Display(int iCol)
-{
-	int j = 1;
-	while(j<=iCol)
-	{
-		printf("*\t");
-		j++;
-	}
-}
 
 void DisplayI(int iRow, int iCol)
 {
